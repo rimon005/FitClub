@@ -2,6 +2,7 @@ import React from 'react';
 import './Plans.css';
 import { plansData } from '../../data/plansData';
 import WhiteTick from '../../assets/whiteTick.png'
+import RightArrow from '../../assets/rightArrow.png'
 const Plans = () => {
     return (
         <div className='plans-container'>
@@ -32,8 +33,9 @@ const Plans = () => {
                                 }
                             </div>
 
-                            <div>
-                                <span>See more benefits -> </span>
+                            <div className='benefits'>
+                                <span>See more benefits  </span>
+                                <img src={RightArrow} alt="" />
                             </div>
                             <button className='btn'>Join Now</button>
                         </div>

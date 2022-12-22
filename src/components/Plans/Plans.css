@@ -71,3 +71,12 @@
 .plans>:nth-child(2)>button{
     color: var(--orange);
 }
+
+.benefits{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.benefits>img{
+    width: .6rem;
+}
